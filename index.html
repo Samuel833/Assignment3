@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A static page with Just HTML an CSS to put into test what I have learnt at Altschool Africa for the past 3months."
+    />
+    <title>Wp pusher Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <nav>
+          <div class="brand-logo">
+            <img src="./Assets/Images/logo.png" alt="wp pusher logo" />
+          </div>
+          <div class="options">
+            <ul>
+              <li><a href="">Download</a></li>
+              <li><a href="">Learn more</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Help</a></li>
+              <li>
+                <p><a href="">Account</a></p>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <hr />
+      <main>
+        <section class="main-bar">
+          <div class="checkout">
+            <h1>Checkout</h1>
+          </div>
+          <hr />
+          <form action="submit.html" method="get">
+            <div class="basic-information">
+              <div class="basic-info">
+                <h2>1</h2>
+                <p>Your Basic Information</p>
+              </div>
+              <div class="name">
+                <div class="first-name">
+                  <label for="firstname">First Name</label>
+                  <input
+                    type="text"
+                    placeholder="Sowunmi"
+                    name="firstname"
+                    id="firstname"
+                    required
+                  />
+                </div>
+                <div class="last-name">
+                  <label for="lastname">Last Name</label>
+                  <input
+                    type="text"
+                    placeholder="Segun"
+                    name="lastname"
+                    id="lastname"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="email">
+                <label for="mail">E-mail</label>
+                <input
+                  type="email"
+                  placeholder="samuelsegun833@gmail.com"
+                  name="mail"
+                  id="mail"
+                  required
+                />
+              </div>
+            </div>
+            <hr />
+            <div class="payment-info">
+              <div class="pay-info">
+                <h2>2</h2>
+                <p>Your Payment Information</p>
+              </div>
+              <div class="credit-card">
+                <label for="details">Credit Card</label>
+                <input
+                  type="text"
+                  placeholder="Card Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MM/YY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CVC"
+                  name="details"
+                  id="details"
+                  max-lenght="26"
+                  required
+                />
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="purchase">
+              <div class="button">
+                <input type="submit" value="Buy WP Pusher" />
+              </div>
+              <div class="support">
+                <div class="help">
+                  <img
+                    src="./Assets/Images/question.png"
+                    alt="a question mark icon"
+                  />
+                  <p>
+                    <strong>Need any help? </strong>Don't hesitate to
+                    <a href="#">contact support!</a>
+                  </p>
+                </div>
+                <img src="./Assets/Images/stripe.png" alt="a logo of stripe" />
+              </div>
+            </div>
+          </form>
+        </section>
+        <section class="side-bar">
+          <section class="content">
+            <div class="plan">
+              <div class="price">
+                <p>Freelancer</p>
+                <p>$</p>
+                <p>99</p>
+                <p>/year</p>
+              </div>
+              <div class="renew">
+                <p>Automatically renews after 1 year</p>
+              </div>
+            </div>
+            <div class="details">
+              <div>
+                <img src="./Assets/Images/tick.png" alt="first tick icon" />
+                <img src="./Assets/Images/tick.png" alt="second tick icon " />
+                <img src="./Assets/Images/tick.png" alt="third tick icon" />
+              </div>
+              <div>
+                <p>Use on <strong>5</strong> client sites</p>
+                <p>Private repositories</p>
+                <p>Email support</p>
+              </div>
+            </div>
+            <div class="switch">
+              <p>Need <strong>20</strong> client sites?</p>
+              <p>
+                <a href="#">Switch to the <em>Agency</em> plan.</a>
+              </p>
+            </div>
+            <hr />
+            <hr />
+            <div class="quote">
+              <p>
+                FTP is horrible to deal with. <strong>WP Pusher</strong> solves
+                that issue, and the customer support is awesome!
+              </p>
+              <div>
+                <img src="./Assets/Images/dp1.jpg" alt="a picture of a user" />
+                <p>Segun Samuel</p>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+      <div class="copyright-terms">
+        <p>&copy; 2018 WP Pusher IVS · <a href="#">Terms of Service</a></p>
+      </div>
+    </section>
+  </body>
+</html>
