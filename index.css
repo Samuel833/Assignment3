@@ -128,7 +128,7 @@ nav {
     + :nth-child(2) {
       margin-inline-end: 46px;
       height: 17px;
-      width: 71px;
+      width: 73px;
       + :nth-child(3) {
         margin-inline-end: 44px;
         height: 17px;
@@ -149,7 +149,7 @@ nav {
               margin-block-start: 9px;
               margin-block-end: 12px;
               margin-inline-start: 19px;
-              margin-inline-end: 2opx;
+              margin-inline-end: 20px;
             }
           }
         }
