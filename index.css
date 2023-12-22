@@ -79,7 +79,7 @@ header {
   margin-inline-end: 40px;
   margin-block-start: 28px;
 }
-hr {
+header + hr {
   width: 1358px;
   height: 2px;
   flex-shrink: 0;
@@ -104,10 +104,10 @@ nav {
   width: 476px;
   height: 40px;
   margin-block-start: 0;
-  a{
+}
+.options > ul > li a {
     text-decoration: none;
     color: #1d2c3c;
-  }
 }
 .options > ul {
   display: flex;
@@ -144,7 +144,7 @@ nav {
             border: 2px solid #646e7a;
             margin-block-start: -11px;
             > p {
-              width: 52px;
+              width: 53px;
               height: 17px;
               margin-block-start: 9px;
               margin-block-end: 12px;
@@ -275,7 +275,7 @@ form {
 .credit-card {
   margin-inline-start: 49px;
   margin-block-start: 21px;
-  input {
+  > input {
     margin-inline-end: 48px;
     width: 483px;
     height: 36px;
@@ -287,13 +287,6 @@ form {
 }
 .name {
   justify-content: space-between;
-  input {
-    width: 226px;
-    height: 36px;
-    border: 1px;
-    border-radius: 4px;
-    background: #edeff2;
-  }
 }
 .name input::placeholder {
   width: 187px;
@@ -304,9 +297,23 @@ form {
 
 .last-name {
   margin-inline-start: 30px;
+  > input {
+    width: 226px;
+    height: 36px;
+    border: 1px;
+    border-radius: 4px;
+    background: #edeff2;
+  }
 }
 .first-name {
   margin-inline-end: 0;
+  > input {
+    width: 226px;
+    height: 36px;
+    border: 1px;
+    border-radius: 4px;
+    background: #edeff2;
+  }
 }
 
 .basic-info,
@@ -320,7 +327,7 @@ form {
   margin-inline-start: 49px;
   margin-inline-end: 161px;
   margin-block-start: 15px;
-  input {
+  > input {
     width: 370px;
     height: 36px;
     background-color: #edeff2;
